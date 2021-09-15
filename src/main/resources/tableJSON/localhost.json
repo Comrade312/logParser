@@ -1,0 +1,73 @@
+{
+  "tableName" : "rh_localhost",
+  "separator" : " ",
+  "tableNameForExceptRows" : "rh_except",
+  "columns": [
+    {
+      "columnName": "time_stamp",
+      "columnSize": "100",
+      "leftLimiter": "TIME_STAMP:\"",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "referer",
+      "columnSize": "2000",
+      "leftLimiter": "REFERER:\"",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "method",
+      "columnSize": "50",
+      "leftLimiter": "METHOD:\"",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "url",
+      "columnSize": "2000",
+      "leftLimiter": "URL:\"",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "query",
+      "columnSize": "2000",
+      "leftLimiter": "QUERY:\"",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "status",
+      "columnSize": "50",
+      "leftLimiter": "STATUS:\"",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "size_log",
+      "columnSize": "50",
+      "leftLimiter": "SIZE:\"",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "time",
+      "columnSize": "50",
+      "leftLimiter": "TIME:\"",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "user_name",
+      "columnSize": "300",
+      "leftLimiter": "USER_NAME:\"",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "user_id",
+      "columnSize": "300",
+      "leftLimiter": "USER_ID:\"",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "session_id",
+      "columnSize": "500",
+      "leftLimiter": "SESSION_ID:\"",
+      "rightLimiter": "\""
+    }
+  ]
+}

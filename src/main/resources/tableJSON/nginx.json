@@ -1,0 +1,121 @@
+{
+  "tableName" : "nginx_controller",
+  "separator" : " ",
+  "tableNameForExceptRows" : "nginx_except",
+  "columns": [
+    {
+      "columnName": "remote_addr",
+      "columnSize": "100",
+      "leftLimiter": "",
+      "rightLimiter": " -"
+    },
+    {
+      "columnName": "remote_user",
+      "columnSize": "100",
+      "leftLimiter": "",
+      "rightLimiter": ""
+    },
+    {
+      "columnName": "time_local",
+      "columnSize": "50",
+      "leftLimiter": "[",
+      "rightLimiter": "]"
+    },
+    {
+      "columnName": "http_method",
+      "columnSize": "50",
+      "leftLimiter": "\"",
+      "rightLimiter": ""
+    },
+    {
+      "columnName": "uri",
+      "columnSize": "2000",
+      "leftLimiter": "",
+      "rightLimiter": ""
+    },
+    {
+      "columnName": "protocol",
+      "columnSize": "100",
+      "leftLimiter": "",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "status",
+      "columnSize": "50",
+      "leftLimiter": "",
+      "rightLimiter": ""
+    },
+    {
+      "columnName": "body_bytes_sent",
+      "columnSize": "50",
+      "leftLimiter": "",
+      "rightLimiter": ""
+    },
+    {
+      "columnName": "http_referer",
+      "columnSize": "2000",
+      "leftLimiter": "\"",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "http_user_agent",
+      "columnSize": "2000",
+      "leftLimiter": "\"",
+      "rightLimiter": "\""
+    },
+    {
+      "columnName": "request_length",
+      "columnSize": "50",
+      "leftLimiter": "",
+      "rightLimiter": ""
+    },
+    {
+      "columnName": "request_time",
+      "columnSize": "50",
+      "leftLimiter": "",
+      "rightLimiter": ""
+    },
+    {
+      "columnName": "proxy_upstream_name",
+      "columnSize": "2000",
+      "leftLimiter": "[",
+      "rightLimiter": "]"
+    },
+    {
+      "columnName": "proxy_alt_upstream_name",
+      "columnSize": "2000",
+      "leftLimiter": "[",
+      "rightLimiter": "]"
+    },
+    {
+      "columnName": "upstream_addr",
+      "columnSize": "500",
+      "leftLimiter": "",
+      "rightLimiter": ""
+    },
+    {
+      "columnName": "upstream_response_length",
+      "columnSize": "50",
+      "leftLimiter": "",
+      "rightLimiter": ""
+    },
+    {
+      "columnName": "upstream_response_time",
+      "columnSize": "50",
+      "leftLimiter": "",
+      "rightLimiter": ""
+    },
+    {
+      "columnName": "upstream_status",
+      "columnSize": "50",
+      "leftLimiter": "",
+      "rightLimiter": ""
+    },
+    {
+      "columnName": "req_id",
+      "columnSize": "300",
+      "leftLimiter": "",
+      "rightLimiter": ""
+    }
+  ]
+}
