@@ -1,8 +1,8 @@
 # Before start
 1. run init.sql script on database (if a user is needed)
 2. move log file / files to a specific folder
-3. fill in json file with log structure
-4. fill the config.properties file with the required data
+3. fill in json file with log structure and put it into folder [tableJson](/src/main/resources/tableJSON)
+4. fill the [config.properties](/src/main/resources/config.properties) file with the required data
     * a link to a database connection
     * username
     * password
